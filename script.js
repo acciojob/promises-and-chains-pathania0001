@@ -3,7 +3,7 @@ const inputs = document.querySelectorAll('input')
 console.log(inputs);
 
 
-const button = document.querySelector('[type=submit]');
+const button = document.querySelector('button');
 
 function validateInput(formData){
 	return new Promise((resolve,reject)=>{
